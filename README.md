@@ -10,25 +10,32 @@ Setup steps:
 
 - Create a new Obsidian vault folder using your new repo as a plugin:
 
-```
-mkdir dev_vault/.obsidian/plugins
-cd dev_vault/.obsidian/plugins
-git clone https://github.com/<owner_name>/<repo_name>
-```
+  ```
+  mkdir dev_vault/.obsidian/plugins
+  cd dev_vault/.obsidian/plugins
+  git clone https://github.com/<owner_name>/<repo_name>
+  ```
 
 - Setup NPM packages and compile `main.ts` to JavaScript:
 
-```
-cd <your_repo>
-npm install
-npm run dev
-```
+  ```
+  cd <your_repo>
+  npm install
+  npm run dev
+  ```
 
 - Update info for your new plugin in `manifest.json` and `LICENSE`.
 
 - Rename the class in `main.ts` and start coding.
 
 - Open the `dev_vault` folder in Obsidian and activate your new plugin.
+
+- (Recommended) Install the https://github.com/pjeby/hot-reload plugin:
+  ```
+  cd ..
+  git clone https://github.com/pjeby/hot-reload
+  ```
+  Then in Obsidian, refresh the plugin list and activate `hot-reload`.
 
 - Press Ctrl + Shift + I to bring up the Chromium debug console. On the console tab, "Hello world"
   should be visible.
