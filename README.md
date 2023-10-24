@@ -1,7 +1,8 @@
 # Obsidian Sample Plugin
 
 This is a sample plugin for [Obsidian](https://obsidian.md), simplified from the
-[original template](https://github.com/obsidianmd/obsidian-sample-plugin).
+[original template](https://github.com/obsidianmd/obsidian-sample-plugin),
+and the source moved into a `src` subfolder.
 
 Setup steps:
 
@@ -16,7 +17,7 @@ Setup steps:
   git clone https://github.com/<owner_name>/<repo_name>
   ```
 
-- Setup NPM packages and compile `main.ts` to JavaScript:
+- Setup NPM packages and compile `src/main.ts` to JavaScript:
 
   ```
   cd <your_repo>
@@ -26,7 +27,7 @@ Setup steps:
 
 - Update info for your new plugin in `manifest.json` and `LICENSE`.
 
-- Rename the class in `main.ts`.
+- Rename the class in `src/main.ts`.
 
 - Open the `dev_vault` folder in Obsidian and activate your new plugin.
 
