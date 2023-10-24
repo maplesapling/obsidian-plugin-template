@@ -25,7 +25,7 @@ npm run dev
 
 - Open the `dev_vault` folder in Obsidian and activate the plugin.
 
-- Update info for your new plugin in `manifest.json`.
+- Update info for your new plugin in `manifest.json` and `LICENSE`.
 
 - Rename the class in `main.ts` and start coding.
 
