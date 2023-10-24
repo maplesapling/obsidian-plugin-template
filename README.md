@@ -38,7 +38,7 @@ Setup steps:
   ```
   Then in Obsidian, refresh the plugin list and activate "Hot Reload".
 
-- Press Ctrl + Shift + I to bring up the Chromium debug console. On the console tab, "Hello world"
+- Press Ctrl + Shift + i to bring up the Chromium debug console. On the console tab, "Hello world"
   should be visible.
 
 - Replace this readme with info about your plugin.
