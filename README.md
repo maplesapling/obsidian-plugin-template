@@ -6,17 +6,17 @@ This is a sample plugin for [Obsidian](https://obsidian.md), simplified from the
 Setup steps:
 
 - On github.com, click the "use this template" button for this repo, then "create a new repository."
-  Provide a name and location for your new repo.
+  Provide an owner and name for your new repo.
 
-- Create a new vault using your new repo as a plugin:
+- Create a new Obsidian vault folder using your new repo as a plugin:
 
 ```
 mkdir dev_vault/.obsidian/plugins
 cd dev_vault/.obsidian/plugins
-git clone https://github.com/<your_account>/<your_repo>
+git clone https://github.com/<owner_name>/<repo_name>
 ```
 
-- Setup NPM packages and compile TypeScript to JavaScript:
+- Setup NPM packages and compile `main.ts` to JavaScript:
 
 ```
 cd <your_repo>
@@ -24,10 +24,13 @@ npm install
 npm run dev
 ```
 
-- Open the `dev_vault` folder in Obsidian and activate the plugin.
-
 - Update info for your new plugin in `manifest.json` and `LICENSE`.
 
 - Rename the class in `main.ts` and start coding.
 
-- Erase everything in this readme.
+- Open the `dev_vault` folder in Obsidian and activate your new plugin.
+
+- Press Ctrl + Shift + I to bring up the Chromium debug console. On the console tab, "Hello world"
+  should be visible.
+
+- Replace this readme with info about your plugin.
