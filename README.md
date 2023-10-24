@@ -19,6 +19,7 @@ git clone https://github.com/<your_account>/<your_repo>
 - Setup NPM packages and compile TypeScript to JavaScript:
 
 ```
+cd <your_repo>
 npm install
 npm run dev
 ```
