@@ -26,16 +26,17 @@ Setup steps:
 
 - Update info for your new plugin in `manifest.json` and `LICENSE`.
 
-- Rename the class in `main.ts` and start coding.
+- Rename the class in `main.ts`.
 
 - Open the `dev_vault` folder in Obsidian and activate your new plugin.
 
 - (Recommended) Install the https://github.com/pjeby/hot-reload plugin:
   ```
+  # Press Ctrl+C to end the last npm command
   cd ..
   git clone https://github.com/pjeby/hot-reload
   ```
-  Then in Obsidian, refresh the plugin list and activate `hot-reload`.
+  Then in Obsidian, refresh the plugin list and activate "Hot Reload".
 
 - Press Ctrl + Shift + I to bring up the Chromium debug console. On the console tab, "Hello world"
   should be visible.
